@@ -1,5 +1,5 @@
 import { styled } from '../styles'
-import { ComponentProps, ElementType } from 'react'
+import { ComponentProps } from '../helpers/'
 import { fontSizes } from '@ignite-ui/tokens'
 
 export const Text = styled('p', {
@@ -25,6 +25,4 @@ export const Text = styled('p', {
   },
 })
 
-export interface TextProps extends ComponentProps<typeof Text> {
-  as?: ElementType
-}
+export interface TextProps extends ComponentProps<typeof Text> {}

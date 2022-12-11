@@ -5,6 +5,11 @@ export default {
   title: 'Form/Text Area',
   component: TextArea,
   args: {},
+  argTypes: {
+    disabled: {
+      control: { type: 'boolean' },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -23,11 +28,5 @@ export default {
 export const Primary: StoryObj<TextAreaProps> = {
   args: {
     placeholder: 'Add description',
-  },
-}
-
-export const Disabled: StoryObj<TextAreaProps> = {
-  args: {
-    disabled: true,
   },
 }

@@ -5,6 +5,11 @@ export default {
   title: 'Form/Checkbox',
   component: Checkbox,
   args: {},
+  argTypes: {
+    disabled: {
+      control: { type: 'boolean' },
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -21,9 +26,3 @@ export default {
 } as Meta<CheckboxProps>
 
 export const Primary: StoryObj<CheckboxProps> = {}
-
-export const Disabled: StoryObj<CheckboxProps> = {
-  args: {
-    disabled: true,
-  },
-}

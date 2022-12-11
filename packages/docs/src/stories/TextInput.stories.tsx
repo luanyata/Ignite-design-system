@@ -5,6 +5,15 @@ export default {
   title: 'Form/Text Input',
   component: TextInput,
   args: {},
+  argTypes: {
+    disabled: {
+      control: { type: 'boolean' },
+    },
+    prefix: {
+      control: { type: 'text' },
+      defaultValue: 'yata.com/',
+    },
+  },
   decorators: [
     (Story) => {
       return (
@@ -23,18 +32,5 @@ export default {
 export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Type your name',
-  },
-}
-
-export const Disabled: StoryObj<TextInputProps> = {
-  args: {
-    prefix: 'yata.com/',
-    disabled: true,
-  },
-}
-
-export const WithPrefix: StoryObj<TextInputProps> = {
-  args: {
-    prefix: 'yata.com/',
   },
 }

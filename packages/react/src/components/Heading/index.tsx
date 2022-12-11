@@ -6,7 +6,6 @@ export const Heading = styled('h2', {
   lineHeight: '$shorter',
   margin: 0,
   color: '$gray100',
-
   variants: {
     size: {
       sm: { fontSize: '$xl' },

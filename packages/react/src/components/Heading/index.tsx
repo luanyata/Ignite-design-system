@@ -1,5 +1,5 @@
-import { styled } from '../styles'
-import { ComponentProps } from '../helpers'
+import { styled } from '../../styles'
+import { ComponentProps } from '../../helpers'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',

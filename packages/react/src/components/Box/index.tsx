@@ -1,5 +1,5 @@
-import { ComponentProps } from '../helpers'
-import { styled } from '../styles'
+import { ComponentProps } from '../../helpers'
+import { styled } from '../../styles'
 
 export const Box = styled('div', {
   padding: '$4',

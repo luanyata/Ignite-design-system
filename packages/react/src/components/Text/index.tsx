@@ -1,5 +1,5 @@
-import { styled } from '../styles'
-import { ComponentProps } from '../helpers/'
+import { styled } from '../../styles'
+import { ComponentProps } from '../../helpers'
 import { fontSizes } from '@ignite-ui/tokens'
 
 export const Text = styled('p', {

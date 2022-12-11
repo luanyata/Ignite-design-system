@@ -8,6 +8,11 @@ export default {
     src: 'https://github.com/luanyata.png',
     alt: 'Luan Lima',
   },
+  argTypes: {
+    src: {
+      control: { type: 'text' },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

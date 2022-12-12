@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@luanyata/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -29,10 +29,10 @@
     "vite": "^3.2.5"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luanyata/eslint-config": "*",
+    "@luanyata/react": "*",
+    "@luanyata/tokens": "*",
+    "@luanyata/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.14",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

@@ -1,0 +1,2 @@
+import{A as t}from"./index.00659271.js";import"./index.6bf0468f.js";import"./iframe.e701194d.js";import"./index.4fee92ed.js";import"./jsx-runtime.7df735d0.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/luanyata.png",alt:"Luan Lima"},argTypes:{src:{control:{type:"text"}}}},c={},m={args:{src:void 0}},n=["Primary","WithFallback"];export{c as Primary,m as WithFallback,n as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories.5be39f0d.js.map

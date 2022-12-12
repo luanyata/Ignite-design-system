@@ -1,6 +1,6 @@
 import { styled } from '../../styles'
 import { ComponentProps } from '../../helpers'
-import { fontSizes } from '@ignite-ui/tokens'
+import { fontSizes } from '@luanyata/tokens'
 
 export const Text = styled('p', {
   fontFamily: '$default',
